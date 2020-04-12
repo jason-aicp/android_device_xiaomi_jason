@@ -83,11 +83,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.dualcam.lpm.enable=1 \
     persist.vendor.dualcam.defer.enable=1
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.aux.packageblacklist=com.tencent.mm \
-    vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,com.google.android.GoogleCamera \
-    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
-
 # ConfigPanel
 PRODUCT_PACKAGES += \
     ConfigPanel
