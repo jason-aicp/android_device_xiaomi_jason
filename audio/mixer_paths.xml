@@ -2305,6 +2305,10 @@
         <path name="speaker" />
     </path>
 
+    <path name="wsa-speaker">
+        <path name="speaker" />
+    </path>
+
     <path name="speaker-safe">
         <path name="speaker-mono" />
     </path>
