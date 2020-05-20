@@ -162,10 +162,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.force_on_dc=true
 
-# VNDK
-PRODUCT_PACKAGES += \
-    libstdc++.vendor
-
 # Wifi
 PRODUCT_PACKAGES += \
     readmac
